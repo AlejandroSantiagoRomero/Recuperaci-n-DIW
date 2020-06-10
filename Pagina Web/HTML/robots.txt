@@ -1,0 +1,17 @@
+#esto inclulle todos los buscadores entre ello bing
+User-agent: *
+Disallow: /img/*
+Allow: /CSS/
+Allow: /*.html
+
+#acceso del boot root de google
+User-agent: googlebot
+Disallow: /img/*
+Allow: /CSS/
+Allow: /*.html
+
+#para el bot de google imagenes solo acceso a las imagenes
+User-agent: Googlebot-Image/1.0
+Allow: /img/*
+Disallow: /CSS/
+Disallow: /*.html

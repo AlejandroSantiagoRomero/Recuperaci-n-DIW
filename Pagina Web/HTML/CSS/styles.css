@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+.btn-grey {
+  background-color: #e5d6d6;
+}
+
+#letra-size {
+  color: black;
+  background-color: #e5d6d6;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+/*tamaño de letra*/
+.p-footer {
+  font-size: 1.5rem;
+}
+
+.p-footer2 {
+  font-size: 2.2rem;
+}
+
+.p-footer3 {
+  font-size: 2.2rem;
+}
+
+/*centrado vertical*/
+/*color de las letra*/
+.table-color {
+  background-color: #7bac2b;
+  color: black;
+}
+
+/*sin margennes*/
+/*color de fondo para la tabla*/
+.t-bg-color {
+  background-color: #7bac2b;
+}
+
+/*lista del footer reajustado y stylizado*/
+.list-custom {
+  list-style-type: none;
+}
+
+.list-custom2 {
+  list-style-type: none;
+}
+
+/*colo de fondo del footer*/
+.footer-bg-color {
+  background-color: #e5d6d6;
+}
+
+.p-footer {
+  font-size: 1.4rem;
+}
+
+.tabla-footer-medio {
+  font-size: 1.7rem;
+}
+
+.ul-footer-medio {
+  font-size: 1.2rem;
+}
+
+.ul-footer-medio2 {
+  font-size: 2.2rem;
+}
+
+.img-footer-pc {
+  width: 200px;
+}
+
+.display-5 {
+  font-size: 1.5rem;
+}
+
+.display-6 {
+  font-size: 1.7rem;
+}
+
+.table-amazine {
+  background-color: #e5d6d6;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0% {
+    background-color: #7bac2b;
+  }
+  25% {
+    background-color: #8da765;
+  }
+  50% {
+    background-color: #e1e4dc;
+  }
+  100% {
+    background-color: #e5d6d6;
+  }
+}
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+/* Tipo de letra para toda la pagina web */
+@font-face {
+  font-family: "MyWebFont";
+  src: url("..\fonts\cinzel-Blod.ttf");
+  /* IE9 Compat Modes */
+}
+body {
+  font-family: "MyWebFont";
+}
+
+/*color de letra del nav y color del fondo del mismo*/
+a.color {
+  color: black;
+  background-color: #e5d6d6;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.sin-padding {
+  padding: 0%;
+}
+
+.con-padding {
+  padding: 30px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.img-article-pc {
+  width: 400px;
+}
+
+.dgt-tablet-img {
+  width: 500px;
+}
+
+section > div > h1 {
+  color: black;
+}
+
+section > div > h3 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-top {
+  margin-top: 5%;
+}
+
+.con-padding2 {
+  padding: 15px;
+}
+
+.sin-padding-right {
+  padding-right: 0px;
+}
+
+.sin-margin {
+  margin: 0px;
+}
+
+.sin-margin-right {
+  margin-right: 0px;
+}
+
+.margin-right {
+  margin-right: 45px;
+}
+
+.margin-right2 {
+  margin-right: 30px;
+}
+
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+div.border:hover {
+  background-color: #7bac2b;
+}
+
+.margin15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.margin-left {
+  margin-left: 15px;
+}
+
+.margin-left2 {
+  margin-left: 45px;
+}
+
+.display-7 {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

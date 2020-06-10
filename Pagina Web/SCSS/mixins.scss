@@ -1,0 +1,6 @@
+//// @access public
+//// @author @Alejandro
+///mixin para cambiar el color de fondo
+@mixin bg-color($color) {
+    background-color: #{$color};
+}
