@@ -1,13 +1,15 @@
-///Colores
-///Código del usuario, previo  al uso (o importación) de mi libreria
-
+/// Color verde usado sobre en los fondos del footer y el header.
 /// @group colores
 $color-green: rgb(123,172,43);
 
+/// Color gris usado sobre en los fondos del footer y el header.
 /// @group colores
 $color-grey: rgb(229,214,214);
 
+/// Color negro usado sobre todo en los colores de letras como enlaces etc.
 /// @group colores
 $color-black: black;
 
+/// Color negrita usado sobre todo en los colores de letras como enlaces etc.
+/// @group colores
 $negrita: bold;

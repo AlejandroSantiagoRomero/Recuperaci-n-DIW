@@ -2,12 +2,14 @@
 //// @author @Alejandro
 @import "colors";
 @import "mixins";
+@import "tamanios";
 /* color de fondo en gris*/
 /// color de fondo en gris
 .btn-grey{
     @include bg-color($color-grey);
 }
 /* cambio el color de la letra a negro el color de fondo y el tamaño de letra y el ancho de la letra del elemento que lleve este id*/
+
 /// cambio el color de la letra a negro el color de fondo y el tamaño de letra y el ancho de la letra del elemento que lleve este id
 #letra-size{
     color: $color-black;

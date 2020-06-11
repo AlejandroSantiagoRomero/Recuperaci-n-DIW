@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+/* color de fondo en gris*/
+.btn-grey {
+  background-color: #e5d6d6;
+}
+
+/* cambio el color de la letra a negro el color de fondo y el tamaño de letra y el ancho de la letra del elemento que lleve este id*/
+#letra-size {
+  color: black;
+  background-color: #e5d6d6;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=navbar.css.map */

@@ -1,73 +1,89 @@
-//// @access public
-//// @author @Alejandro
+/// letra de la parte del footer donde sale la informacion de contacto
 /// @group tamaños
 $letra-contactos: 1.5rem;
 
+/// letra de la parte del la tabla del navbar version movil
 /// @group tamaños
 $nav-tablet: 1.7rem;
 
+/// letra para el footer
 /// @group tamaños
 $footer: 1.4rem;
 
+/// letra para el footer en version tablet
 /// @group tamaños
 $footer2: 2.2rem;
 
+/// letra para el footer en version pc
 /// @group tamaños
 $footer3: 2.2rem;
 
+/// letra para el contenido de la tabla del footer
 /// @group tamaños
 $footer-table: 1.7rem;
 
+/// letra para el ul del footer
 /// @group tamaños
 $footer-ul: 1.2rem;
 
+/// letra para el ul del footer version tablet
 /// @group tamaños
 $footer-ul2: 2.2rem;
 
+/// tamaño de la imagen del articulo
 /// @group tamaños
 $img-article-img: 400px;
 
+/// tamaño de la imagen del footer en version pc
 /// @group tamaños
 $img-footer-pc: 200px;
 
+/// tamaño de la imagen de la dgt
 /// @group tamaños
 $dgt-tablet-img: 500px;
+
+/// tamaño de letra generico del nav
 /// @group tamaños
 $letra-size: 1.2rem;
 
-/// @group tamaños
-
 /*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
-
-/// tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande
-
+/// variable para el tamaño predefinido 5 equivalente a 1.5rem
+/// @group tamaños
 $display5: 1.5rem;
 
+/// variable para el tamaño predefinido 5 equivalente a 1.5rem
 /// @group tamaños
 $display6: 1.7rem;
 
+/// variable para el tamaño predefinido 5 equivalente a 1.5rem
 /// @group tamaños
 $display7: 1rem;
 
+/// margen superio 5%
 /// @group tamaños
 $margin-top: 5%;
 
+/// padding a 30px
 /// @group tamaños
 $padding: 30px;
 
+/// padding a 15px
 /// @group tamaños
 $padding2: 15px;
 
+/// valor 0px util para quitar margenes y paddings
 /// @group tamaños
 $cero: 0px;
 
+/// margen derecha a 45px
 /// @group tamaños
 $margin-right: 45px;
 
+/// margen derecha a 30px
 /// @group tamaños
 $margin-right-mitad: 30px;
 
-
+/// margen por defecto a 15px
 /// @group tamaños
 $margin-default: 15px;
 

@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+/* color de fondo en gris*/
+.btn-grey {
+  background-color: #e5d6d6;
+}
+
+/* cambio el color de la letra a negro el color de fondo y el tamaño de letra y el ancho de la letra del elemento que lleve este id*/
+#letra-size {
+  color: black;
+  background-color: #e5d6d6;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+/*tamaño de letra del parrafo del footer version movil*/
+.p-footer {
+  font-size: 1.5rem;
+}
+
+/*tamaño de letra del parrafo del footer version tablet*/
+.p-footer2 {
+  font-size: 2.2rem;
+}
+
+/*tamaño de letra del parrafo del footer version PC*/
+.p-footer3 {
+  font-size: 2.2rem;
+}
+
+/*color de las letras de la tabla*/
+.table-color {
+  background-color: #7bac2b;
+  color: black;
+}
+
+/*sin margennes*/
+/*color de fondo para la tabla*/
+.t-bg-color {
+  background-color: #7bac2b;
+}
+
+/*lista sin style sin los botones que bienen por defecto*/
+.list-custom {
+  list-style-type: none;
+}
+
+/*lista sin style sin los botones que bienen por defecto}*/
+.list-custom2 {
+  list-style-type: none;
+}
+
+/*color de fondo del footer usando un mixin*/
+.footer-bg-color {
+  background-color: #e5d6d6;
+}
+
+/*tamaño de letra del parrafo en el footer*/
+.p-footer {
+  font-size: 1.4rem;
+}
+
+/* cambio de tamaño de letra de la tabla del footer*/
+.tabla-footer-medio {
+  font-size: 1.7rem;
+}
+
+/* cambio de tamaño de letra del ul del footer*/
+.ul-footer-medio {
+  font-size: 1.2rem;
+}
+
+/* cambio de tamaño de letra del ul del footer*/
+.ul-footer-medio2 {
+  font-size: 2.2rem;
+}
+
+/*tamaño de la imagen del footer en version pc*/
+.img-footer-pc {
+  width: 200px;
+}
+
+/* tamaño de letra personalizado display-5*/
+.display-5 {
+  font-size: 1.5rem;
+}
+
+/* tamaño de letra personalizado display-6*/
+.display-6 {
+  font-size: 1.7rem;
+}
+
+/* efecto Css3 de la tabla degradado de color*/
+.table-amazine {
+  background-color: #e5d6d6;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+/* efecto Css3 de la tabla degradado de color*/
+@keyframes example {
+  0% {
+    background-color: #7bac2b;
+  }
+  25% {
+    background-color: #8da765;
+  }
+  50% {
+    background-color: #e1e4dc;
+  }
+  100% {
+    background-color: #e5d6d6;
+  }
+}
+/*tamaño predefinido 5 1.5rem seria el tamaño personalizado mas grande*/
+/* Tipo de letra para toda la pagina web */
+@font-face {
+  font-family: "MyWebFont";
+  src: url("..\fonts\cinzel-Blod.ttf");
+  /* IE9 Compat Modes */
+}
+/* Tipo de letra para toda la pagina web */
+body {
+  font-family: "MyWebFont";
+}
+
+/*color de letra del nav y color del fondo del mismo*/
+a.color {
+  color: black;
+  background-color: #e5d6d6;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+/*padding a 0%*/
+.sin-padding {
+  padding: 0%;
+}
+
+/*padding general ajustado al valor de la variable padding valor actual 30px*/
+.con-padding {
+  padding: 30px;
+}
+
+/*quitar la barra de desplazamiento horizontal solo funciona en pc*/
+body {
+  overflow-x: hidden;
+}
+
+/*tamaño de la imagen del articulo de la version pc*/
+.img-article-pc {
+  width: 400px;
+}
+
+/*tamaño de la imagen de degete en la version pc*/
+.dgt-tablet-img {
+  width: 500px;
+}
+
+/*colo negro para los elementos h1 hijos de un div hijos de un section*/
+section > div > h1 {
+  color: black;
+}
+
+/*colo negro para los elementos h3 hijos de un div hijos de un section*/
+section > div > h3 {
+  color: black;
+}
+
+/*enlaces con color de letra siempre negra*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*margen superior controlado por variable*/
+.margin-top {
+  margin-top: 5%;
+}
+
+/*padding general ajustado al valor de la variable padding valor actual 15px*/
+.con-padding2 {
+  padding: 15px;
+}
+
+/* padding derecho a cero siendo 0 una variable*/
+.sin-padding-right {
+  padding-right: 0px;
+}
+
+/* margin a cero siendo 0 una variable*/
+.sin-margin {
+  margin: 0px;
+}
+
+/* margin derecho a cero siendo 0 una variable*/
+.sin-margin-right {
+  margin-right: 0px;
+}
+
+/*margen derecho controlado por variable*/
+.margin-right {
+  margin-right: 45px;
+}
+
+/*margen derecho controlado por variable*/
+.margin-right2 {
+  margin-right: 30px;
+}
+
+/*margen derecho controlado por variable por defecto a 15px*/
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+/*efecto cambiar color de fondo al pasar el cursor por encima*/
+div.border:hover {
+  background-color: #7bac2b;
+}
+
+/*margen izquierdo y derecho controlado por una variable por defecto a 15px*/
+.margin15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*margen izquierdo controlado por variable*/
+.margin-left {
+  margin-left: 15px;
+}
+
+/*margen izquierdo controlado por variable*/
+.margin-left2 {
+  margin-left: 45px;
+}
+
+/*tamaño de letra personalizado display-7.*/
+.display-7 {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
