@@ -3,17 +3,17 @@
 @import "colors";
 @import "mixins.scss";
 @import "tamanios";
-/*tamaño de letra*/
+/*tamaño de letra del parrafo del footer version movil*/
 ///tamaño de letra del parrafo del footer version movil
 .p-footer {
     font-size: $letra-contactos;
 }
-
+/*tamaño de letra del parrafo del footer version tablet*/
 ///tamaño de letra del parrafo del footer version tablet
 .p-footer2 {
     font-size: $footer2;
 }
-
+/*tamaño de letra del parrafo del footer version PC*/
 ///tamaño de letra del parrafo del footer version PC
 .p-footer3 {
     font-size: $footer3;
@@ -22,7 +22,7 @@
 /*centrado vertical*/
 ///centrado vertical
 
-/*color de las letra*/
+/*color de las letras de la tabla*/
 ///color de las letras de la tabla
 .table-color {
     @include bg-color($color-green);
@@ -37,54 +37,65 @@
     @include bg-color($color-green);
 }
 
-/*lista del footer reajustado y stylizado*/
+/*lista sin style sin los botones que bienen por defecto*/
 ///lista sin style sin los botones que bienen por defecto
 .list-custom {
     list-style-type: none;
 }
+/*lista sin style sin los botones que bienen por defecto}*/
 ///lista sin style sin los botones que bienen por defecto
 .list-custom2 {
     list-style-type: none;
 }
-/*colo de fondo del footer*/
+/*color de fondo del footer usando un mixin*/
 ///color de fondo del footer usando un mixin
 .footer-bg-color {
     @include bg-color($color-grey);
 }
+/*tamaño de letra del parrafo en el footer*/
 ///tamaño de letra del parrafo en el footer
 .p-footer {
     font-size: $footer;
 }
+/* cambio de tamaño de letra de la tabla del footer*/
 /// cambio de tamaño de letra de la tabla del footer
 .tabla-footer-medio {
     font-size: $footer-table;
 }
+/* cambio de tamaño de letra del ul del footer*/
 /// cambio de tamaño de letra del ul del footer
 .ul-footer-medio {
     font-size: $footer-ul;
 }
+/* cambio de tamaño de letra del ul del footer*/
 /// cambio de tamaño de letra del ul del footer
 .ul-footer-medio2 {
     font-size: $footer-ul2;
 }
+/*tamaño de la imagen del footer en version pc*/
 /// tamaño de la imagen del footer en version pc
 .img-footer-pc {
     width: $img-footer-pc;
 }
+/* tamaño de letra personalizado display-5*/
 /// tamaño de letra personalizado display-5
 .display-5 {
     font-size: $display5;
 }
+/* tamaño de letra personalizado display-6*/
 /// tamaño de letra personalizado display-6
 .display-6 {
     font-size: $display6;
 }
+/* efecto Css3 de la tabla degradado de color*/
 /// efecto Css3 de la tabla degradado de color
 .table-amazine {
     background-color: $color-grey;
     animation-name: example;
     animation-duration: 10s;
 }
+/* efecto Css3 de la tabla degradado de color*/
+/// efecto Css3 de la tabla degradado de color
 @keyframes example {
     
   0%   {background-color: $color-green;}
